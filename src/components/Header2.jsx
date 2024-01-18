@@ -5,8 +5,8 @@ function Header2(){
 const [userSearch, setUserSearch] = useState("");
     const [isOpen, setIsOpen] = useState(false);
     return(
-        <nav className="z-30 w-full bg-white border-b rounded-md border-gray-200">
-        <div className="px-3 py-1 lg:px-5 lg:pl-3">
+        <nav className="z-30 w-full bg-white rounded-md border-gray-200">
+        <div className="px-3 py-1.5 lg:px-5 lg:pl-3">
           <div className="flex items-center justify-between">
             <div className="flex items-center justify-start">
               <div>
